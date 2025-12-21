@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       </p>
 
       <div style={{ marginTop: "28px", display: "flex", gap: "12px" }}>
-        <a
+        <Link
           href="/"
           style={{
             padding: "10px 14px",
@@ -23,7 +24,7 @@ export default function Home() {
           }}
         >
           Home
-        </a>
+        </Link>
         <a
           href="https://github.com/emszyd/rowing-app"
           target="_blank"
