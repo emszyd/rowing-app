@@ -13,7 +13,7 @@ export default function Home() {
       </p>
 
       <div style={{ marginTop: "28px", display: "flex", gap: "12px" }}>
-        <link
+        <a
           href="/"
           style={{
             padding: "10px 14px",
@@ -21,8 +21,9 @@ export default function Home() {
             border: "1px solid #ddd",
             textDecoration: "none",
           }}
-        />
+        >
           Home
+        </a>
         <a
           href="https://github.com/emszyd/rowing-app"
           target="_blank"
