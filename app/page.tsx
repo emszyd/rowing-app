@@ -21,10 +21,8 @@ export default function Home() {
             border: "1px solid #ddd",
             textDecoration: "none",
           }}
-        >
+        />
           Home
-        </link>
-
         <a
           href="https://github.com/emszyd/rowing-app"
           target="_blank"
