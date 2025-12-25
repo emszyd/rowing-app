@@ -40,6 +40,18 @@ export default function Home() {
         </a>
       </div>
 
+      <Link href="/workouts"
+        style={{
+          padding: '10px 14px',
+          borderRadius: '10px',
+          border: '1px solid #ddd',
+          textDecoration: 'none',
+          }}
+          >
+          Workout Log
+        </Link>
+      
+
       <div style={{ marginTop: "36px" }}>
         <h2 style={{ fontSize: "22px", marginBottom: "10px" }}>This week</h2>
         <ul style={{ lineHeight: 1.8 }}>
